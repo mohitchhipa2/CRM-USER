@@ -147,7 +147,7 @@ const PrintComponent = () => {
               <option>Deal lead</option>
               <option>Wrong Number</option>
               <option>Take From Other Compony</option>
-              <option>Importent</option>
+              <option>Important</option>
             </select>
           </div>
           <div className="">
