@@ -1,0 +1,84 @@
+.allprofilesection{
+    padding: 10px 20px;
+    width: 100% !important;
+}
+
+.allprofilesection {
+    /* max-width: 400px; */
+    /* margin: auto; */
+    /* padding: 20px; */
+    /* border: 1px solid #ccc; */
+    /* border-radius: 5px; */
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+  }
+  
+  .allprofilesection h5 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .allprofilesection div {
+    margin-bottom: 15px;
+  }
+  
+  .allprofilesection p {
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  .allprofilesection input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+  }
+  
+  .allprofilesection button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .allprofilesection button:hover {
+    background-color: #45a049;
+  }
+
+  .Referral-container{
+    display: flex;
+gap: 20px;
+    align-items: center;
+
+  }
+  
+  .Referral-Link{
+    width: 100%;
+    background-color: #F8F9FA;
+    padding: 20px;
+    border-radius: 15px;
+    font-size: 1.2rem;
+  }
+
+  .Referral-share{
+    /* height: 30px; */
+    align-items: center;
+    background-color: #F8F9FA;
+    padding: 13px;
+    font-size: 1rem;
+    color: red;
+    border-radius:15px;
+    cursor: pointer;
+  }
+
+  .allsocialmedialink img{
+    cursor: pointer;
+width: 50px;
+  }
+
+  .allsocialmedialink{
+    display: flex;
+    gap: 20px;
+  }

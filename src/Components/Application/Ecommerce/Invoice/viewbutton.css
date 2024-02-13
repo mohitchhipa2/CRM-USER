@@ -1,0 +1,19 @@
+.viewdatas{
+display: flex;
+align-items: center;
+width: 540px;
+gap: 10px;
+margin-bottom: 10px;
+}
+
+.viewinputdatas{
+display: flex;
+gap: 10px;
+width: 50%;
+}
+
+.viewinputdatas span{
+color: gray;
+font-size: 15px;
+}
+

@@ -1,0 +1,23 @@
+.tableworkbuttonproject {
+  display: flex;
+  gap: 5px;
+}
+
+
+.projectdeatilstable {
+  margin-top: 10px;
+  width: 150%;
+}
+
+.pagination-first {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 9px;
+}
+
+@media(max-width:1308px) {
+  .projectdeatilstable {
+    margin-top: 10px;
+    width: 200%;
+  }
+}

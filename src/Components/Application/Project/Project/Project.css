@@ -1,0 +1,131 @@
+.alldocument h2{
+    text-align: center;
+    color: #333;
+}
+
+.alldocument{
+    padding: 10px 20px;
+
+}
+
+.alldocument div{
+    margin-bottom: 15px;
+}
+
+.alldocument p{
+    margin: 0;
+    font-weight: bold;
+}
+
+.alldocument input{
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+.alldocument button{
+    width: 100% ;
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.alldocument button:hover {
+    background-color: #45a049;
+  }
+
+  .tableworkbutton{
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+  }
+
+
+  .documenttable{
+    margin-top: 10px;
+    width: 100%;
+  }
+
+
+  @media(max-width:768px){
+    .tableworkbutton{
+        display: flex;
+        flex-direction: column;
+   align-items: center;
+    }
+  }
+
+  .alldocument h2{
+    text-align: center;
+    color: #333;
+}
+
+.alldocument{
+    padding: 10px 20px;
+
+}
+
+.alldocument div{
+    margin-bottom: 15px;
+}
+
+.alldocument p{
+    margin: 0;
+    font-weight: bold;
+}
+
+.alldocument input{
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+.alldocument button{
+    width: 100% ;
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.alldocument button:hover {
+    background-color: #45a049;
+  }
+
+ 
+
+
+  .documenttable{
+    margin-top: 10px;
+    width: 120%;
+  }
+
+
+  .mytables {
+    width: auto !important;
+    min-width: 140%;
+    overflow-x: scroll;
+}
+
+
+  @media(max-width:1308px){
+    .tableresponsive{
+       margin-top: 20px;
+    }
+  }
+
+  
+
+
+  .pagination-first{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 9px;
+}

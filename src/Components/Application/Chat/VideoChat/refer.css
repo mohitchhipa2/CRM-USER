@@ -1,0 +1,21 @@
+.myTablerefrel {
+    width: auto !important;
+    min-width: 200%;
+    overflow-x: scroll;
+
+}
+
+.pagination-first {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 9px;
+}
+
+@media (max-width:1308px) {
+    .myTablerefrel {
+        width: auto !important;
+        min-width: 240%;
+        overflow-x: scroll;
+
+    }
+}

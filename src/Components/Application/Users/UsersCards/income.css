@@ -1,0 +1,69 @@
+.myTable-19 {
+    width: auto !important;
+    min-width: 200%;
+}
+
+th {
+    width: 360px !important;
+}
+
+.dailytasktable-1 {
+    /* width: 180%; */
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.myTable-19 {
+    width: auto !important;
+    min-width: 430%;
+}
+
+@media(max-width:1308px) {
+    .myTable-19 {
+        width: auto !important;
+        min-width: 520%;
+    }
+}
+
+
+.myTable-19 thead tr {
+    width: 280px !important;
+}
+
+
+@media(max-width:768px) {
+    .workinputnutton {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+
+@media(max-width:1308px) {
+    .workinputnutton {
+        display: flex;
+        justify-content: end;
+        gap: 10px;
+    }
+
+    .projects-history {
+        font-size: 23px;
+    }
+
+    .dailytasktable-1 {
+        margin-top: 20px;
+    }
+}
+
+.workinputnutton {
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+}
+
+.pagination-first {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 9px;
+}

@@ -1,0 +1,70 @@
+.general-widget{
+    background-color: white;
+    padding: 10px 20px;
+    width: 100% !important;
+}
+
+.general-widget .fromdailytask{
+    margin-bottom: 15px;
+}
+
+/* .general-widget h3{
+    text-align: center;
+} */
+
+.general-widget .dailytaskp{
+    margin: 0;
+    font-weight: bold;
+}
+
+.tableworkbuttondaily{
+display: flex;
+gap: 5px;
+}
+
+
+
+.workinputnutton{
+
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+}
+
+@media(max-width:768px){
+    .workinputnutton{
+display: flex;
+flex-direction: column;
+
+/* justify-content: center !important; */
+    }
+    .searchdaily{
+        width: 270px !important;
+    }
+}
+
+@media(max-width:768px){
+.dailytasktable{
+    /* margin-top: 75px; */
+}
+
+
+}
+
+
+@media(max-width:1318px){
+    .workinputnutton{
+        display: flex;
+        left: 35%;
+    }
+    .searchdaily{
+        width: 240px !important;
+    }
+}
+
+.pagination-first{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 9px;
+}
+
