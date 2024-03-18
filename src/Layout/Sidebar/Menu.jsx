@@ -48,7 +48,7 @@ export const MENUITEMS = [
       //     { path: `${process.env.PUBLIC_URL}/app/ecommerce/orderhistory`, title: "OrderHistory", type: "link" },
       //     { path: `${process.env.PUBLIC_URL}/app/ecommerce/invoice`, title: "Invoice", type: "link" },
       //     { path: `${process.env.PUBLIC_URL}/app/ecommerce/cart`, title: "Cart", type: "link" },
-      //     { path: `${process.env.PUBLIC_URL}/app/ecommerce/wishlist`, title: "Wishlist", type: "link" },
+          // { path: `${process.env.PUBLIC_URL}/app/ecommerce/wishlist`, title: "Wishlist", type: "link" },
       //     { path: `${process.env.PUBLIC_URL}/app/ecommerce/checkout`, title: "checkout", type: "link" },
       //     { path: `${process.env.PUBLIC_URL}/app/ecommerce/pricing`, title: "Pricing", type: "link" },
       //   ],
@@ -72,7 +72,7 @@ export const MENUITEMS = [
         ],
       },
       {
-        title: "4DropDown",
+        title: "Documents",
         icon: "chat",
         type: "sub",
         active: false,
@@ -104,11 +104,12 @@ export const MENUITEMS = [
         ],
       },
       {
-        title: "3DropDown",
+        title: "Leads",
         icon: "chat",
         type: "sub",
         active: false,
         children: [
+          { path: `${process.env.PUBLIC_URL}/app/ecommerce/wishlist`, title: "Inquiry", type: "link" },
           {
             path: `${process.env.PUBLIC_URL}/app/ecommerce/pricing`,
             icon: "file",

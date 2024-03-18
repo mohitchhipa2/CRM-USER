@@ -1,0 +1,106 @@
+.leadinput {
+    display: flex;
+    gap: 10px;
+}
+
+@media(max-width:900px) {
+    .leadinput {
+        display: flex !important;
+        flex-direction: column !important;
+        /* gap: 10px; */
+    }
+
+}
+
+.addleadsbutton {
+    /* position: relative;
+    left: 91%; */
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+@media (max-width:1308px) {
+    .myTable-1 {
+        width: 300% !important;
+    }
+}
+
+
+
+
+
+.leadinputdate {
+    display: flex;
+    gap: 10px;
+}
+
+
+
+@media(max-width:768px) {
+    .leadinputdate {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .leadinputdate .leadinputstwo {
+        width: 188%;
+    }
+
+    .leadssearchbtn {
+        width: 76px;
+    }
+
+    .mytables {
+        width: auto !important;
+        min-width: 260%;
+        overflow-x: scroll;
+    }
+
+    th {
+        width: 280px !important;
+    }
+
+
+}
+
+
+
+
+th {
+    width: 280px !important;
+}
+
+.dailytasktable-1 {
+    /* width: 180%; */
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.myTable-1 {
+    width: 150% !important;
+}
+
+.mytables {
+    width: auto !important;
+    min-width: 280%;
+    overflow-x: scroll;
+}
+
+.myTable-1 thead tr {
+    width: 250px !important;
+}
+
+
+.upload-button {
+    width: 80px;
+    border: 1px solid transparent;
+    background-color: #7366FF;
+    color: white;
+    justify-content: center;
+    margin-right: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
